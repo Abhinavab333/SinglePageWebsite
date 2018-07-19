@@ -1,0 +1,145 @@
+<style>
+
+#page{
+	width: auto;
+	height: auto;
+overflow-x: hidden;
+}
+#top{
+	width: auto;
+	height: 55px;
+}
+nav.navbar{
+	height: 55px;
+
+}
+.section1{
+	width:1349px;
+	height: 618px;
+	background-color: 	#5F9EA0;
+	background-image: url(C:\Users\Abhinav\Desktop\Job-Fair.jpg);
+	 background-size: cover;
+
+}
+li.nav-item{
+	font-size: 20px;
+}
+.fly-in-text{
+	list-style: none;
+	position: absolute;
+
+	left:22%;
+	top:20%;
+	transform: translateX(-50%) translateY(-50);
+}
+.fly-in-text li{
+	display: inline-block;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+	margin-right: 50px;
+	color:#fff;
+	font-family: Open Sans,Arial;
+	font-weight: 300;
+	font-size: 4em;
+	opacity: 1;
+	transition: all 1.5s ease;
+}
+.fly-in-text li:last-child {
+	margin-right: 0;
+
+}
+.fly-in-text.hidden li{
+	
+}
+.fly-in-text.hidden li:nth-child(1){transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(2){transform: translateX(-20px) translateY(100px);}
+.fly-in-text.hidden li:nth-child(3){transform: translateX(-150px) translateY(-80px);}
+.fly-in-text.hidden li:nth-child(4){transform: translateX(10px) translateY(-200px);}
+.fly-in-text.hidden li:nth-child(5){transform: translateX(-300px) translateY(200px);}
+.fly-in-text.hidden li:nth-child(6){transform: translateX(20px) translateY(-20px);}
+.fly-in-text.hidden li:nth-child(7){transform: translateX(30px) translateY(200px);}
+
+.section2{
+  		width: 1349px;
+  		height: 718px;
+  		background-image: url(images.jpg);
+  		background-size: cover;
+  		overflow-y: hidden;
+  		margin-top: 0px;
+  		
+  		
+  	}
+  	#form{
+  		width: 780px;
+  		height: 700px;
+  		
+  		margin:20px 0px 0px 380px;
+  	}
+  	#hea{
+  		width: 780px;
+  		height: 48px;
+  		
+  		
+  	}
+  	#bod{
+  		width: 780px;
+  		height: 632px;
+  		
+  	}
+  	h3{
+  		color: white;
+  		font-family: cursive;
+  		font-size: 45px;
+  		margin: 3px 0px 0px 29px;
+  	}
+  	#f1{
+  		margin:35px 0px 0px 30px;
+  		font-weight: 4em;
+  		font-family: oblique;
+  		font-size: 25px;
+  		color:black;
+  	}
+  	#bt{
+  		margin: 10px 0px 0px 0px;
+  	}
+  	button.btn{
+
+  		background-color: white;
+  		padding: 6px 54px;
+  		color: 	#696969;
+  	}
+  	#f2{
+  		margin:35px 0px 0px 5px;
+  		font-weight: 4em;
+  		font-family: oblique;
+  		font-size: 25px;
+  		color:black;
+  	}
+  	#f3{
+  		margin:35px 0px 0px 5px;
+  		font-weight: 4em;
+  		font-family: oblique;
+  		font-size: 25px;
+  		color:black;
+  	}
+  	#sel1{
+  		width: 450px;
+  		height: 35px;
+  	}
+  	.form-control{
+  		font-size: 18px;
+  		font-family: oblique;
+  	}
+  	#comment{
+  		width: 450px;
+  		height: 95px;
+  	}
+  	button#submit{
+  		margin:25px 0px 0px 358px;
+  		color: #4169E1;
+
+  	}
+  	button#submit:hover{
+  		color: red;
+  	}
+</style>
