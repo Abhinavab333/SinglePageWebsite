@@ -1,25 +1,35 @@
 <style>
-
+*{
+	box-sizing: border-box;
+}
 #page{
 	width: auto;
 	height: auto;
-overflow-x: hidden;
+	overflow-x: hidden;
+
 }
+
 #top{
 	width: auto;
 	height: 55px;
+	overflow-x: hidden;
 }
-nav.navbar{
-	height: 55px;
 
-}
 .section1{
-	width:1349px;
+	width:auto;
 	height: 618px;
-	background-color: 	#5F9EA0;
-	background-image: url(C:\Users\Abhinav\Desktop\Job-Fair.jpg);
-	 background-size: cover;
+	background-image: url(mountains_sky_sunset_peaks_97149_1440x900.jpg);
+	background-size: cover;
+	overflow-x: hidden;
 
+}
+.welimg{
+	width: 600px;
+	height: 150px;
+	
+	margin: 0px 0px 0px 360px;
+	background-image: url(logo.png);
+	background-size: cover;
 }
 li.nav-item{
 	font-size: 20px;
@@ -29,7 +39,7 @@ li.nav-item{
 	position: absolute;
 
 	left:22%;
-	top:20%;
+	top:10%;
 	transform: translateX(-50%) translateY(-50);
 }
 .fly-in-text li{
@@ -59,12 +69,14 @@ li.nav-item{
 .fly-in-text.hidden li:nth-child(6){transform: translateX(20px) translateY(-20px);}
 .fly-in-text.hidden li:nth-child(7){transform: translateX(30px) translateY(200px);}
 
+
 .section2{
-  		width: 1349px;
+  		width: auto;
   		height: auto;
   		background-image: url(images.jpg);
   		background-size: cover;
   		overflow-y: hidden;
+  		overflow-x: hidden;
   		margin-top: 0px;
   		
   		
@@ -145,6 +157,7 @@ li.nav-item{
   	 #cpage{
   	width: auto;
   	height: 700px;
+  	overflow hidden;
   	
 
   }
@@ -248,8 +261,11 @@ li.nav-item{
   	#section3{
   		width: auto;
   		height: auto;
-  		
+  		background-image: url(images.jpg);
+  		background-size: cover;
   		position: relative;
+  		overflow-x: hidden;
+
   	}
     #th{
     	width: 1240px;
@@ -364,6 +380,59 @@ li.nav-item{
     	margin:10px 0px 0px -15px;
     	font-size: 19px;
     	padding-top: 5px;
+    }
+    /*media queries*/
+    @media(max-width: 768px){
+    	body{
+    		overflow-x: hidden;
+    	}
+    	#top{
+    		float: none;
+    		text-align: center;
+    		height: 55px;
+    		width: 768px;
+    		
+    	}
+    	.navbar li{
+    		width:auto;height: 55px;
+    		display: inline-block; 
+    	}
+    	#section1{
+    		float:none;
+    		width: 768px;
+    		overflow-x: hidden;
+    	}
+    	.welimg{
+    		float: none;
+    		
+    		width: 300px;
+    		height: 40px;
+    		
+    		margin-left:all; 
+    	}
+
+    	#form{
+    		float: left;
+    		margin-left: 0px;
+    		margin-right: 150px;
+    		width: 100%;height: auto;
+    	}
+    	#cpage{
+    		width: auto;
+    		height: auto;float: none;
+    	}
+    	#cform{
+    		margin-left: 0px;
+    	}
+    	#cbright{
+    		
+    		float: right;
+    		margin-top: -10px;
+    		padding-top: 100px;
+    		margin-left: 10px;
+    		
+    	}
+
     }
 
  
